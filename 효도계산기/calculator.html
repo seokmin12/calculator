@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>효도계산기</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        html,
+        body {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            background: #;
+        }
+
+        div {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            background: #6d6d6d;
+            border-radius: 15px;
+
+        }
+
+        input {
+            width: 95%;
+            height: 18%;
+            margin-top: 3%;
+            margin-left: 2.5%;
+            background: #ffff7d;
+            border-radius: 10px;
+            font-size: 7em;
+            text-align: right;
+        }
+
+        button {
+            width: 20%;
+            height: 17.5%;
+            margin-top: 2.5%;
+            margin-left: 3.5%;
+            color: white;
+            background: #c0c0c0;
+            font-size: 6em;
+
+        }
+
+        .blue {
+            background: #0080ff;
+        }
+
+        .red {
+            background: #fe0505;
+        }
+
+        .clear {
+
+            background-color: orange;
+        }
+    </style>
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+    <div id="calculator">
+        <input type="text" value="">
+        <button type="button" class="gray">7</button>
+        <button type="button" class="gray">8</button>
+        <button type="button" class="gray">9</button>
+        <button type="button" class="blue">/</button>
+        <button type="button" class="gray">4</button>
+        <button type="button" class="gray">5</button>
+        <button type="button" class="gray">6</button>
+        <button type="button" class="blue">*</button>
+        <button type="button" class="gray">1</button>
+        <button type="button" class="gray">2</button>
+        <button type="button" class="gray">3</button>
+        <button type="button" class="blue">-</button>
+        <button type="button" class="gray">0</button>
+        <button type="button" class="clear">C</button>
+        <button type="button" class="red">=</button>
+        <button type="button" class="blue">+</button>
+
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
